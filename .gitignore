@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local AstrBot data and exports (may contain private conversations)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+conversations_export*.jsonl
+memory_snapshot*.json
+demo/
+conversation-manager-backups/
+backups/
+/Chrome/
+
+# Local screenshots and scratch files
+/screenshots/
+/*.png
+/*.jpg
+/*.jpeg
+/*.wav
+/*.mp3
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE / OS metadata
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Screenshot working files
+docs/images/*-raw.png
